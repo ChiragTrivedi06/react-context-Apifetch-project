@@ -92,8 +92,10 @@ function ProductCards({ pdata }) {
           </p>
           <div className="flex items-center">
             <p className="text-lg font-semibold text-black cursor-auto my-3">
-              Rs {pdata.price} /-
+              $ {pdata.price} /-
             </p>
+            <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 ml-3"><a href="https://wa.me/9649447196?text=Hi%2C%20I%20want%20to%20send%20you%20money%20using%20WhatsApp%20Pay ">Buy Now</a>
+           </button>
             <div onClick={addToCart} className="ml-auto hover:text-red-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
